@@ -1,0 +1,65 @@
+.home-section {
+  min-height: 100vh;
+}
+
+.hello-bubble {
+  background: linear-gradient(to right, #00c6ff, #0072ff);
+  padding: 8px 16px;
+  color: white;
+  font-weight: bold;
+  display: inline-block;
+  border-radius: 25px;
+  margin-bottom: 1rem;
+}
+
+.highlight {
+  color: #FFD600;
+  font-weight: bold;
+  border-bottom: 2px solid black;
+}
+
+.profile-img {
+  border-radius: 50%;
+  position: relative;
+  z-index: 2;
+}
+
+.yellow-blob {
+  background: #FFD600;
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  top: -20px;
+  left: -20px;
+  z-index: 1;
+  border-radius: 45% 55% 60% 40% / 55% 45% 60% 40%;
+}
+
+/* Social Icons Left */
+.social-icons {
+  z-index: 10;
+}
+
+.icon-link {
+  font-size: 1.25rem;
+  color: black;
+  transition: 0.3s ease;
+}
+
+.icon-link:hover {
+  color: #FFD600;
+}
+
+/* Right Email Text */
+.email-link {
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  transition: 0.3s ease;
+}
+
+.email-link:hover {
+  color: #FFD600;
+}
